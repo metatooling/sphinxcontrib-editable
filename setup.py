@@ -12,6 +12,6 @@ setuptools.setup(
     version=VERSION,
     packages=setuptools.find_packages(),
     namespace_packages=["sphinxcontrib"],
-    install_requires=['sphinx'],
+    install_requires=["sphinx", "importlib_resources"],
     include_package_data=True,
 )
