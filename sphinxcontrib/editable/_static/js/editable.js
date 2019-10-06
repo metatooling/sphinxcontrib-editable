@@ -17,7 +17,7 @@ window.onload = function() {
     }
     index = editable.dataset.mediumEditorEditorIndex;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", 'https://cors-anywhere.herokuapp.com/https://sleepy-harbor-00552.herokuapp.com/', true);
+    xhr.open("POST", 'https://cors-anywhere.herokuapp.com/https://editable-docs-bot.herokuapp.com/', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     data = {
         index: index,
