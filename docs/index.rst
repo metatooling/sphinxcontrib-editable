@@ -7,7 +7,7 @@ Contents
 
    readme
    installation
-   contributing
+
 
 
 Indices and tables

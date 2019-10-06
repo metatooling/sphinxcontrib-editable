@@ -55,4 +55,4 @@ Try out a `live demo here <https://editable-docs-demo.readthedocs.io/en/latest/u
 Contribute
 -----------
 
-I need help, especially making the Javascript work better. Come to the issue tracker `on GitHub <https://github.com/metatooling/sphinxcontrib-editable>`__.
+I need help, especially making the Javascript and CSS work better. Come to the issue tracker `on GitHub <https://github.com/metatooling/sphinxcontrib-editable>`__. The main files are in the ``sphinxcontrib/`` directory.
