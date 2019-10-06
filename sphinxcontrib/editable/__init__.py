@@ -15,10 +15,10 @@ if False:
     from typing import Any, Dict  # noqa
     from sphinx.application import Sphinx  # noqa
 
-__version__ = pbr.version.VersionInfo(
-    'editable').version_string()
+__version__ = pbr.version.VersionInfo("editable").version_string()
 
 
 def setup(app):
     # type: (Sphinx) -> Dict[unicode, Any]
-    return {'version': __version__, 'parallel_read_safe': True}
+    app.add_js_file("js/editable.js")
+    return {"version": __version__, "parallel_read_safe": True}
