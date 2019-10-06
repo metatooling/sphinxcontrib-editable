@@ -9,14 +9,12 @@
 """
 
 
-import pbr.version
-
 if False:
     # For type annotations
     from typing import Any, Dict  # noqa
     from sphinx.application import Sphinx  # noqa
 
-__version__ = pbr.version.VersionInfo("editable").version_string()
+from ._version import __version__
 
 
 def setup(app):

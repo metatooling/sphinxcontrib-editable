@@ -2,11 +2,16 @@
 
 import setuptools
 
+ns = {}
+with open("sphinxcontrib/editable/_version.py") as f:
+    exec(f.read(), ns)
+VERSION = ns["__version__"]
 
 setuptools.setup(
     name="sphinxcontrib-editable",
-    version="0.0.3",
+    version=VERSION,
     packages=setuptools.find_packages(),
-    namespace_packages=['sphinxcontrib'],
+    namespace_packages=["sphinxcontrib"],
+    install_requires=['sphinx'],
     include_package_data=True,
 )
