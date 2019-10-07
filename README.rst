@@ -68,6 +68,10 @@ And in ``docs/conf.py`` add
     extensions = ['sphinxcontrib.editable']
 
 
+Documentation
+--------------
+
+https://sphinxcontrib-editable.readthedocs.io/
 
 
 Contribute
