@@ -51,6 +51,24 @@ Live demo
 Try out a `live demo here <https://editable-docs-demo.readthedocs.io/en/latest/usage.html>`__.
 
 
+Install
+--------
+
+
+Install this package:
+
+.. code-block:: bash
+
+    pip install sphinxcontrib-editable
+
+And in ``docs/conf.py`` add
+
+.. code-block:: python
+
+    extensions = ['sphinxcontrib.editable']
+
+
+
 
 Contribute
 -----------
