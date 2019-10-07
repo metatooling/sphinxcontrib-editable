@@ -31,7 +31,7 @@ explains:
 
 
 These sound like important benefits of using Google Docs. But I want to write
-my docs in a markup language because it's much more powerful. So my ideal
+my docs in a markup language because it's much more flexible. So my ideal
 documentation system would have several features:
 
 * Maintainers can write docs in a powerful markup language.
