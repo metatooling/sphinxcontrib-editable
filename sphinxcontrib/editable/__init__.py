@@ -55,13 +55,6 @@ def copy_asset_files(app, exc):
             copy_asset(str(path), str(outdir))
 
 
-    outdir = os.path.join(app.outdir, "_static/css/themes")
-    os.makedirs(outdir, exist_ok=True)
-    for file in THEME_FILES:
-        with importlib_resources.path(sphinxcontrib.editable._static.css.themes, file) as path:
-            copy_asset(str(path), str(outdir))
-
-
 def setup(app):
     # type: (Sphinx) -> Dict[unicode, Any]
     for file in JS_FILES:

@@ -2,7 +2,7 @@
 var editor;
 
 window.onload = function() {
-    editor  = new MediumEditor('body p');
+    editor  = new MediumEditor('body p', {autolink: true});
 
 
     editor.subscribe('focus', function(data, editable) { if (!editable.hasAttribute('data-original')) {
