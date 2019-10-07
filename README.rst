@@ -73,6 +73,11 @@ Documentation
 
 https://sphinxcontrib-editable.readthedocs.io/
 
+Source code
+-------------
+
+https://github.com/metatooling/sphinxcontrib-editable
+
 
 Contribute
 -----------
