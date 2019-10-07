@@ -73,4 +73,4 @@ And in ``docs/conf.py`` add
 Contribute
 -----------
 
-I need help, especially making the Javascript and CSS work better. Come to the issue tracker `on GitHub <https://github.com/metatooling/sphinxcontrib-editable>`__. The main files are in the ``sphinxcontrib/`` directory.
+Come to the issue tracker `on GitHub <https://github.com/metatooling/sphinxcontrib-editable>`__.
