@@ -47,7 +47,7 @@ This library demos no-login editing capability for Sphinx docs.
 Live demo
 ----------
 
-Try out a `live demo here <https://editable-docs-demo.readthedocs.io/en/latest/usage.html>`__.
+Try out a `live demo here <https://editable-docs-demo.readthedocs.io>`__.
 
 
 Install
