@@ -9,15 +9,14 @@
 """
 import os.path
 
-from sphinx.util.fileutil import copy_asset
 import importlib_resources
+from sphinx.util.fileutil import copy_asset
 
 import sphinxcontrib.editable._static.css
 import sphinxcontrib.editable._static.css.themes
 import sphinxcontrib.editable._static.js
 
 from ._version import __version__
-
 
 if False:
     # For type annotations

@@ -6,4 +6,4 @@
     :license: BSD, see LICENSE for details.
 """
 
-pytest_plugins = 'sphinx.testing.fixtures'
+pytest_plugins = "sphinx.testing.fixtures"
