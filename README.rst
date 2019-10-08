@@ -7,11 +7,10 @@ In-line editable documentation
 Overview
 --------
 
-I read a `discussion
-<https://groups.google.com/d/msg/ledger-cli/u648SA1o-Ek/j8cSvPNkCwAJ>`__ by a
-library maintainer who uses Google Docs instead of Sphinx for his project
-documentation because it lets users provide corrections and feedback inline. He
-explains:
+I read a `conversation
+<https://groups.google.com/d/msg/ledger-cli/u648SA1o-Ek/j8cSvPNkCwAJ>`__ which discusses
+the advantages of Google Docs over traditional markup documentation because it lets users
+provide corrections and feedback inline. One notable section:
 
     it's a dynamic and collaborative experience. It's a living process. **It
     makes it trivially easy for anyone, with or without an account, with or
